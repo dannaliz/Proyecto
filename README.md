@@ -18,7 +18,7 @@ Mismas que se verán reflejadas en una simulación implementada en nuestro Main 
 conseso final el cual mostrará la información detallada de todos los nodos, tanto los bizantinos como los honestos.
 
 Toda la información en base a la decisión de hacer el algoritmo PBFT se encuentra en nuestra primera parte del proyecto, del cual cabe recalcar una adición de un módulo más
-para poder manejar de manera eficiente la parte de los nodos. Este modulo es llamado `NodoPBFT`. El cuál explicamos su funcionamiento en la documentación del código y en este mismo Readme.
+para poder manejar de manera eficiente la parte de los nodos. Este módulo es llamado `NodoPBFT`. El cuál explicamos su funcionamiento en la documentación del código y en este mismo Readme.
 
 ## Requisitos
 
