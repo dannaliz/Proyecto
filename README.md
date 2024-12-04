@@ -91,15 +91,14 @@ para poder manejar de manera eficiente la parte de los nodos. Este módulo es ll
      - **Commit**: Los nodos procesan mensajes de compromiso para confirmar el bloque.
     
 Nuestro código tratamos de hacerlo lo más completo posible, poniendo los primeros 2 nodos como bizantinos, para que en la simulación se vea reflejado su comportamiento mediante el algoritmo PBFT. A su vez, insertamos un bloque "Bloque 1", para
-que también se vea el funcionamiento del hash en los nodos honestos, e insertamos un "Bloque Malicioso en estos nodos bizantinos". 
+que también se vea el funcionamiento del hash en los nodos honestos, e insertamos un "Bloque Malicioso" en estos nodos bizantinos. 
 
 Al tratar de mostrar toda la simulación de nuestro algoritmo puede que simular una red pueda mostrar una ejecución algo extensa pero definitivamente con el propósito de mostrar visualmente cada fase de PBFT y la información
 detallada de cada nodo, esto hecho a propósito para demostrar un correcto funcionamiento de nuestro código. 
 
 Nota: Algunas funciones recursivas y funciones que complementaron e hicieron más robusto nuestro código fueron generadas por inteligencia artificial, esto para una mayor eficacia en la simulación completa al ejecutar el código, pero siempre cuidando la no dependencia de la misma IA. :)
 
-## Ejemplo de Uso (para simular una red recomendaría hacerlo con 7 nodos y 2 procesos bizantinos, esto debido a que nos inclinamos a mostrar una simulación completa del código, por lo que intentar con "Main.run(10,2)" podría mostrar una ejecución bastante extensa, pero
-al final es solo una recomendación, pues de igual manera funciona con 10 nodos ;))
+## Ejemplo de Uso (para simular una red recomendaría hacerlo con 7 nodos y 2 procesos bizantinos, esto debido a que nos inclinamos a mostrar una simulación completa del código, por lo que intentar con "Main.run(10,2)" podría mostrar una ejecución bastante extensa, peroal final es solo una recomendación, pues de igual manera funciona con 10 nodos ;))
 
 ```elixir
 # Cargar los códigos PBFT.ex y Main.ex
