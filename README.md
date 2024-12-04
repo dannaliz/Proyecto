@@ -1,5 +1,6 @@
 # Blockchain en Elixir
-Flores Linares Oscar Daniel y Márquez Corona Danna Lizette
+- Flores Linares Oscar Daniel: 320208591 
+- Márquez Corona Danna Lizette: 320279991
 
 Este proyecto consiste en desarrollar una **blockchain** funcional para un sistema de criptomonedas, implementada en **Elixir**. 
 
@@ -7,6 +8,13 @@ El sistema puede manejar múltiples procesos que representan a los usuarios. Ent
 - Envío de mensajes entre usuarios.
 - Alcance de un consenso distribuido.
 - Detección y eliminación de procesos maliciosos que intenten alterar la blockchain.
+
+En este proyecto implementamos el algoritmo de consenso PBFT, el cual consta de 3 fases las cuales son: 
+- Pre-preparación: El líder propone un bloque a todos los nodos, quienes verifican si el mensaje es válido antes de proceder.
+- Preparación: Los nodos envían mensajes de preparación para confirmar que el bloque recibido en Pre-Prepare es consistente y válido.
+- Compromiso: Los nodos intercambian mensajes de compromiso, asegurando que la mayoría acepta el bloque antes de agregarlo a la blockchain.
+Mismas que se verán reflejadas en una simulación implementada en nuestro Main para mostrar explícitamente cada fase. Finalizando por una fase de
+conseso final el cual mostrará la información detallada de todos los nodos, tanto los bizantinos como los honestos.
 
 ## Requisitos
 
