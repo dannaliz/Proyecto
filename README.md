@@ -97,6 +97,7 @@ Al tratar de mostrar toda la simulación de nuestro algoritmo puede que simular 
 detallada de cada nodo, esto hecho a propósito para demostrar un correcto funcionamiento de nuestro código. 
 
 Nota: Algunas funciones recursivas y funciones que complementaron e hicieron más robusto nuestro código fueron generadas por inteligencia artificial, esto para una mayor eficacia en la simulación completa al ejecutar el código, pero siempre cuidando la no dependencia de la misma IA. :)
+Adicionalmente, también aclarar que son muchas lineas de código en PBFT, más que nada por la documentación. (Mismo caso para código Main)
 
 ## Ejemplo de Uso (para simular una red recomendaría hacerlo con 7 nodos y 2 procesos bizantinos, esto debido a que nos inclinamos a mostrar una simulación completa del código, por lo que intentar con "Main.run(10,2)" podría mostrar una ejecución bastante extensa, peroal final es solo una recomendación, pues de igual manera funciona con 10 nodos ;))
 
